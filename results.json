@@ -1,0 +1,247 @@
+{
+  "data": {
+    "everyone": [
+      {
+        "name": "Michael",
+        "friend": [
+          {
+            "name": "Sarah"
+          },
+          {
+            "name": "Catalina",
+            "friend": [
+              {
+                "name@en": "Sang Hyun",
+                "name@ko": "상현",
+                "age": 24,
+                "friend": [
+                  {
+                    "name": "Catalina",
+                    "age": 19
+                  },
+                  {
+                    "name@en": "Hyung Sin",
+                    "name@ko": "형신"
+                  },
+                  {
+                    "name@en": "Amit",
+                    "name@hi": "अमित",
+                    "name@bn": "অমিত",
+                    "age": 35
+                  }
+                ],
+                "owns_pet": [
+                  {
+                    "name": "Goldie"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "friend": [
+              {
+                "name": "Michael",
+                "age": 39,
+                "friend": [
+                  {
+                    "name": "Sarah",
+                    "age": 55
+                  },
+                  {
+                    "name": "Catalina",
+                    "age": 19
+                  },
+                  {
+                    "name@en": "Amit",
+                    "name@hi": "अमित",
+                    "name@bn": "অমিত",
+                    "age": 35
+                  },
+                  {
+                    "name@en": "Sang Hyun",
+                    "name@ko": "상현",
+                    "age": 24
+                  },
+                  {
+                    "name@en": "Artyom",
+                    "name@ru": "Артём",
+                    "age": 35
+                  }
+                ],
+                "owns_pet": [
+                  {
+                    "name": "Rammy the sheep"
+                  }
+                ]
+              },
+              {
+                "name@en": "Sang Hyun",
+                "name@ko": "상현",
+                "age": 24,
+                "friend": [
+                  {
+                    "name": "Catalina",
+                    "age": 19
+                  },
+                  {
+                    "name@en": "Hyung Sin",
+                    "name@ko": "형신"
+                  },
+                  {
+                    "name@en": "Amit",
+                    "name@hi": "अमित",
+                    "name@bn": "অমিত",
+                    "age": 35
+                  }
+                ],
+                "owns_pet": [
+                  {
+                    "name": "Goldie"
+                  }
+                ]
+              },
+              {
+                "name@en": "Artyom",
+                "name@ru": "Артём",
+                "age": 35
+              }
+            ]
+          },
+          {
+            "friend": [
+              {
+                "name": "Catalina",
+                "age": 19,
+                "friend": [
+                  {
+                    "name@en": "Sang Hyun",
+                    "name@ko": "상현",
+                    "age": 24
+                  }
+                ],
+                "owns_pet": [
+                  {
+                    "name": "Perro"
+                  }
+                ]
+              },
+              {
+                "name@en": "Hyung Sin",
+                "name@ko": "형신",
+                "friend": [
+                  {
+                    "name@en": "Sang Hyun",
+                    "name@ko": "상현",
+                    "age": 24
+                  }
+                ]
+              },
+              {
+                "name@en": "Amit",
+                "name@hi": "अमित",
+                "name@bn": "অমিত",
+                "age": 35,
+                "friend": [
+                  {
+                    "name": "Michael",
+                    "age": 39
+                  },
+                  {
+                    "name@en": "Sang Hyun",
+                    "name@ko": "상현",
+                    "age": 24
+                  },
+                  {
+                    "name@en": "Artyom",
+                    "name@ru": "Артём",
+                    "age": 35
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Catalina",
+        "friend": [
+          {
+            "friend": [
+              {
+                "name": "Catalina",
+                "age": 19,
+                "friend": [
+                  {
+                    "name@en": "Sang Hyun",
+                    "name@ko": "상현",
+                    "age": 24
+                  }
+                ],
+                "owns_pet": [
+                  {
+                    "name": "Perro"
+                  }
+                ]
+              },
+              {
+                "name@en": "Hyung Sin",
+                "name@ko": "형신",
+                "friend": [
+                  {
+                    "name@en": "Sang Hyun",
+                    "name@ko": "상현",
+                    "age": 24
+                  }
+                ]
+              },
+              {
+                "name@en": "Amit",
+                "name@hi": "अमित",
+                "name@bn": "অমিত",
+                "age": 35,
+                "friend": [
+                  {
+                    "name": "Michael",
+                    "age": 39
+                  },
+                  {
+                    "name@en": "Sang Hyun",
+                    "name@ko": "상현",
+                    "age": 24
+                  },
+                  {
+                    "name@en": "Artyom",
+                    "name@ru": "Артём",
+                    "age": 35
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "extensions": {
+    "server_latency": {
+      "parsing_ns": 337700,
+      "processing_ns": 5896000,
+      "encoding_ns": 129700,
+      "assign_timestamp_ns": 1886100,
+      "total_ns": 8843200
+    },
+    "txn": {
+      "start_ts": 256
+    },
+    "metrics": {
+      "num_uids": {
+        "_total": 69,
+        "age": 13,
+        "friend": 20,
+        "name": 23,
+        "owns_pet": 13
+      }
+    }
+  }
+}
